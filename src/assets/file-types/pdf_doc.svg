@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.282" height="54.409" viewBox="0 0 44.282 54.409">
+  <g id="Group_2612" data-name="Group 2612" transform="translate(1 1)">
+    <g id="Group_2609" data-name="Group 2609" transform="translate(1.1 1.1)" opacity="0.15">
+      <path id="Path_3570" data-name="Path 3570" d="M994.588,508.6H975.1a3.067,3.067,0,0,0-3.058,3.058v36.955a3.067,3.067,0,0,0,3.058,3.058h27.726a3.067,3.067,0,0,0,3.058-3.058V520.026Z" transform="translate(-964.704 -508.603)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_3571" data-name="Path 3571" d="M1033.627,508.6v8.35a3.068,3.068,0,0,0,3.058,3.058h8.212Z" transform="translate(-1003.714 -508.603)"/>
+      <path id="Rectangle_2930" data-name="Rectangle 2930" d="M7.656,0H20.071a7.656,7.656,0,0,1,7.656,7.656v0a7.656,7.656,0,0,1-7.656,7.656H7.656A7.656,7.656,0,0,1,0,7.656v0A7.656,7.656,0,0,1,7.656,0Z" transform="translate(0 10.612)" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+      <text id="PDF" transform="translate(4.826 20.272)" font-size="8" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">PDF</tspan></text>
+      <path id="Path_3572" data-name="Path 3572" d="M1005.846,598.164V589h-9.53v9.164h-5.025l9.73,12.083,9.73-12.083Z" transform="translate(-976.896 -559.531)" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="Group_2611" data-name="Group 2611" transform="translate(0)">
+      <g id="Group_2610" data-name="Group 2610">
+        <path id="Path_3573" data-name="Path 3573" d="M991.588,505.6H972.1a3.067,3.067,0,0,0-3.058,3.058v36.955a3.067,3.067,0,0,0,3.058,3.058h27.726a3.067,3.067,0,0,0,3.058-3.058V517.026Z" transform="translate(-961.705 -505.603)" fill="none" stroke="#6ab71a" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_3574" data-name="Path 3574" d="M1030.627,505.6v8.35a3.068,3.068,0,0,0,3.058,3.058h8.212Z" transform="translate(-1000.714 -505.603)" fill="#6ab71a"/>
+        <path id="Rectangle_2931" data-name="Rectangle 2931" d="M7.656,0H20.072a7.656,7.656,0,0,1,7.656,7.656v0a7.656,7.656,0,0,1-7.656,7.656H7.656A7.656,7.656,0,0,1,0,7.656v0A7.656,7.656,0,0,1,7.656,0Z" transform="translate(0 10.612)" fill="#6ab71a" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <text id="PDF-2" data-name="PDF" transform="translate(5.826 21.272)" fill="#fff" font-size="9" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">PDF</tspan></text>
+        <path id="Path_3575" data-name="Path 3575" d="M1002.846,595.164V586h-9.53v9.164h-5.025l9.73,12.083,9.73-12.083Z" transform="translate(-973.896 -556.531)" fill="#6ab71a" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+.container {
+  max-height: 480px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.btnStyles {
+  :global(.ant-btn-lg) {
+    padding: 5px 4rem;
+  }
+}
+
+.textStyles {
+  margin-left: 2px;
+  margin-left: 0.05rem;
+  color: #111642;
+  font-weight: 500;
+  font-size: small;
+}
+
+.modalStyles {
+  :global {
+    .ant-modal-body {
+      padding: 0;
+    }
+    .ant-modal-header {
+      padding: 14px 4px 8px 18px;
+      background: white;
+      border-bottom: none;
+      border-radius: 10px 10px 0 0 !important; /* no unit */
+    }
+    .ant-modal-title {
+      color: #005be7;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    .ant-modal-footer {
+      padding: 0 !important;
+      border-top: none;
+      border-radius: 0 0 10px 10px;
+    }
+    .ant-modal-content {
+      border-radius: 8px;
+    }
+
+    .ant-btn-icon-only.ant-btn-lg {
+      border-radius: 0.4rem;
+    }
+  }
+}

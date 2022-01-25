@@ -1,0 +1,94 @@
+.Page {
+  // max-width: 99.8rem;
+  max-width: 80rem;
+  margin-top: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  .Header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--p-border-subdued, #dfe3e8);
+    .Navigation {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      width: 100% !important;
+      // margin-bottom: 0.5rem;
+      .AdditionalNavigationWrapper {
+        flex: 1 0 auto;
+        justify-content: flex-end !important;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        text-align: right !important;
+      }
+      .PaginationWrapper {
+        flex: 0 0 auto;
+      }
+    }
+    .MainContent {
+      display: flex !important;
+      align-items: center !important;
+      .TitleActionMenuWrapper {
+        flex: 1 1 auto !important;
+        padding-right: 2rem;
+        .TitleHasThumbnail {
+          display: flex !important;
+          align-items: center !important;
+          .Thumbnail {
+            padding-right: 1.5rem;
+            img {
+              width: 4rem !important;
+              height: 4rem !important;
+              border-radius: 9999px !important;
+            }
+          }
+          .TitleAndSubtitleWrapper {
+            display: flex !important;
+            flex: 1 1 auto !important;
+            flex-direction: column !important;
+            justify-content: center;
+            .TitleWithMetadataWrapper {
+              .PageTitle {
+                display: inline-flex !important;
+                margin-right: 0.5rem;
+                h1 {
+                  display: inline-flex !important;
+                  font-weight: 700;
+                  font-size: 1.5rem;
+                }
+              }
+              .TitleMetadata {
+                display: inline-flex !important;
+                font-size: 1rem;
+              }
+            }
+            .SubTitle {
+              margin-top: 0.25rem;
+              color: #718096;
+              font-size: 0.875rem;
+            }
+          }
+        }
+        .ActionMenuWrapper {
+          margin-top: 1rem;
+        }
+      }
+      .PrimaryActionWrapper {
+        flex: 0 0 auto;
+        // .self-start();
+      }
+    }
+    .Title {
+      overflow: hidden !important;
+      color: #2f855a;
+      font-weight: 600;
+      font-size: 1.5rem;
+      white-space: nowrap !important;
+      white-space: nowrap !important;
+      text-overflow: ellipsis !important;
+    }
+  }
+  .Content {
+    font-size: 1rem;
+  }
+}

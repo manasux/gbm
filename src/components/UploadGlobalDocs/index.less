@@ -1,0 +1,79 @@
+.globalBox {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: white;
+  border: 1px dashed #005be7;
+  border-radius: 10px 10px;
+}
+
+.formStyles {
+  :global {
+    .ant-form-item-label {
+      padding: 0 !important;
+    }
+    .ant-form-item {
+      margin-bottom: 2px !important;
+    }
+  }
+}
+.textStyles {
+  margin-left: 0.05rem;
+  font-weight: 500;
+  font-size: small;
+}
+.modalStyles {
+  position: relative;
+  top: 180px;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  animation-name: cloud-animation;
+  animation-duration: 0.5s;
+  animation-fill-mode: backwards;
+}
+.modalStyles2 {
+  :global {
+    .ant-modal-body {
+      padding: 0;
+    }
+    .ant-modal-header {
+      padding: 14px 4px 8px 18px;
+      background: white;
+      border-bottom: none;
+      border-radius: 10px 10px 0 0 !important; /* no unit */
+    }
+    .ant-modal-title {
+      color: #005be7;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    .ant-modal-footer {
+      padding: 0 !important;
+      border-top: none;
+      border-radius: 0 0 10px 10px;
+    }
+    .ant-modal-content {
+      border-radius: 8px;
+    }
+
+    .ant-btn-icon-only.ant-btn-lg {
+      border-radius: 0.4rem;
+    }
+  }
+}
+
+@keyframes cloud-animation {
+  from {
+    transform: translateX(20vw);
+  }
+  to {
+    transform: translateX(4px);
+  }
+}
+
+:global {
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 6px;
+  }
+}

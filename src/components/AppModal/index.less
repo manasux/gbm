@@ -1,0 +1,43 @@
+// global class for AppModal Component
+.AppModal {
+  padding-bottom: 0 !important;
+  background-color: #ffffff;
+  border-radius: 10px;
+  :global(.ant-modal-content) {
+    background-color: transparent;
+    border-radius: 8px !important;
+  }
+
+  .ant-modal-footer {
+    padding: 24px;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #ebebeb;
+  }
+  .ModalTitle {
+    padding: 1.4rem 1.8rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.33334;
+    border-bottom: 1px solid #ebebeb;
+  }
+  .ModalSubTitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.38463;
+  }
+  .AppModalInputWrapper {
+    padding: 16px 16px;
+  }
+  .AppModalInput {
+    border-radius: 4px;
+    input {
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+  .AppModalInput.ant-input-affix-wrapper-focused {
+    -webkit-box-shadow: 0 0 0 4px rgba(24, 144, 255, 0.2);
+    box-shadow: 0 0 0 4px rgba(24, 144, 255, 0.2);
+  }
+}

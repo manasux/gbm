@@ -1,0 +1,141 @@
+@import '~antd/es/style/themes/default.less';
+// import richtext editor css
+@import '~react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+// import react image lightbox css
+@import '~react-image-lightbox/style.css';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+.ant-btn > span {
+  margin-inline: 4px;
+}
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// 兼容IE11
+@media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .ant-design-pro > .ant-layout {
+    min-height: 100vh;
+  }
+}
+
+.formLabel {
+  font-weight: 500;
+}
+
+.vidyaFormLabel {
+  color: #6b778c;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.ant-pro-sider-logo img {
+  height: 37px;
+}
+
+.border {
+  border: 0.1rem solid var(--p-border-subdued, #dfe3e8);
+}
+.border-b {
+  border-bottom: 0.1rem solid var(--p-border-subdued, #dfe3e8);
+}
+.border-t {
+  border-top: 0.1rem solid var(--p-border-subdued, #dfe3e8);
+}
+.border-r {
+  border-right: 0.1rem solid var(--p-border-subdued, #dfe3e8);
+}
+.border-l {
+  border-left: 0.1rem solid var(--p-border-subdued, #dfe3e8);
+}
+
+.editor {
+  min-height: 256px;
+  padding: 16px;
+  border: 1px solid #dfe3e8;
+}
+
+.public-DraftStyleDefault-block {
+  margin: 0 !important;
+}
+.rdw-option-wrapper {
+  border: none;
+}
+.rdw-dropdown-selectedtext {
+  color: black;
+  font-weight: 400;
+}
+.AppModal {
+  .ant-modal-content {
+    .ant-modal-body {
+      padding: 0 !important;
+    }
+  }
+}
+
+.ant-btn-circle {
+  border-radius: 50%;
+}
+
+.anticon svg {
+  margin-bottom: 6px;
+}
+
+.ant-tabs-top > .ant-tabs-nav {
+  margin: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
